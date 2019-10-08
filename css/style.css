@@ -1215,3 +1215,7 @@ header {
             transform:scale(0);
   }
 }
+.picture{
+    width:335px;
+    height: 223px;
+}
