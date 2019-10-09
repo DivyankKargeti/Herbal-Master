@@ -6,14 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Green</title>
+	<title>Herbal Garden | UPES</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
 	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 	<script src="https://kit.fontawesome.com/bf56d77efc.js" crossorigin="anonymous"></script>
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 
 <body>
@@ -33,8 +33,8 @@
 					<!-- Logo -->
 					<div class="navbar-brand">
 						<a href="index.html">
-							<img class="logo" src="img/112233.png" alt="logo">
-							<img class="logo-alt" src="img/112233.png" alt="logo">
+							<img class="logo" src="img/nit.png" alt="logo">
+							<img class="logo-alt" src="img/nit.png" alt="logo">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -50,8 +50,8 @@
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Our work</a></li>
-					<li><a href="#vision">Our vision</a></li>
+					<li><a href="#portfolio">Work</a></li>
+					<li><a href="#vision">Vision</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -71,7 +71,7 @@
 							<h1 style="color:#019031">Welcome to <span style="color: #45CE30">Herbal Garden</span> </h1>
 							<p class="white-text">An initiative towards plants and their products which are one of the main reason why we are alive.
 							</p>
-							<a href="#portfolio"><button class="white-btn">My work</button></a>
+							<a href="#portfolio"><button class="white-btn">Our Work</button></a>
 							<a href="#contact"><button class="main-btn">Contact </button></a>
 						</div>
 					</div>
@@ -364,7 +364,9 @@ Medicinal Value - Anti diuretic<br></span>
 					<div class="overlay"></div>
 					<div class="work-content">
 	<h3>Withania somnifera</h3>
-						<span>Commom Name - Ashwgandha</span>
+						<span>Commom Name - Ashwgandha<br>
+						Family - Solanaceae<br>
+					Medicinal Value - Treats neurological disorders<br></span>
 
 						<div class="work-link">
 							<a target="_blank" href="contentf/Ashvgandha.pdf" ><i class="fas fa-file-pdf"></i></a>
@@ -423,7 +425,7 @@ Medicinal Value - Cures Urogenital disorder<br></span>
 				<div class="col-sm-4 col-xs-6">
 					<div class="number">
 						<i class="fas fa-seedling"></i>
-						<h3 class="white-text"><span class="counter">100</span></h3>
+						<h3 class="white-text"><span class="counter">15</span></h3>
 						<span style="color:#45CE30">Saplings Planted</span>
 					</div>
 				</div>
@@ -506,8 +508,8 @@ Medicinal Value - Cures Urogenital disorder<br></span>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3>OmShri Verma</h3>
-								<span>Founder</span>
+								<h3>Dr. Rajkumar Tiwari</h3>
+								<span>Mentor</span>
 							</div>
 						</div>
 					</div>
@@ -629,12 +631,12 @@ good students. </p>
 
 				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
-					<form class="contact-form mb-5">
-						<input type="text" class="input" placeholder="Name">
-						<input type="email" class="input" placeholder="Email">
-						<input type="text" class="input" placeholder="Subject">
-						<textarea class="input" placeholder="Message"></textarea>
-						<button class="main-btn">Send message</button><br><br>
+					<form action="mail1.php" method="POST" autocomplete="off" class="contact-form mb-5">
+						<input type="text" class="input" name="fname" placeholder="Name" pattern="[A-Za-z]{5,40}" required >
+						<input type="email" class="input" name="email" class="form-control" placeholder="E-mail Address" pattern="[a-z0-9._%+-]+@(gmail|ymail|yahoo|hotmail|outlook|googlemail|mac)+\.(com|co.in|in|org|net)$" required>
+						<input type="text" name="subject" class="input" placeholder="Subject" required>
+						<textarea class="input" name="message" placeholder="Say something here" pattern="[a-z0-9.-$%+-*@#^]{20,}" required></textarea>
+						<button class="main-btn" name="submit">Send message</button><br><br>
 					</form>
 				</div>
 				<!-- /contact form -->
@@ -663,7 +665,7 @@ good students. </p>
 					<!-- footer logo -->
 					<div class="footer-logo">
 						<a href="index.html"><img src="img/upeslogo.jpeg" alt="logo"></a>
-						<a href="index.html"><img src="img/herb.jpeg" alt="logo"></a>
+						<a href="index.html"><img src="img/nit.png" alt="logo"></a>
 						<a href="index.html"><img src="img/sohs.jpeg" alt="logo"></a>
 					</div>
 					<!-- /footer logo -->
